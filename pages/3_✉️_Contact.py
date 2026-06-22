@@ -17,7 +17,7 @@ st.markdown(
         """
         <style>
             [data-testid="stSidebarNav"]::before {
-                content: "PhishGuardian🛡️";
+                content: "WebGuard AI🛡️";
                 margin-left: 15px;
                 # margin-top: 20px;
                 font-size: 40px;

@@ -18,8 +18,8 @@ def ml_app():
     with st.container():
         left_column, right_column = st.columns((2,1))
         with left_column:
-            st.title('WELCOME! KNIGHT⚔️')
-            st.subheader('This a content based Machine Learning App which is developed to detect Phishing Websites.')
+            st.title('WebGuard AI 🛡️')
+            st.subheader('ML-Powered Phishing Website Detection Engine — Detect Phishing Websites Before They Detect You.')
 
         with right_column:
             lottie_secure = load_lottieurl("https://lottie.host/ef003e80-0e69-436f-a632-aae38a02366d/PTzpA1SW3j.json")

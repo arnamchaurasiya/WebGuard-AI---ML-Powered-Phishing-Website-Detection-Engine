@@ -10,7 +10,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 def main_app():
-    st.set_page_config(page_title="PhishGuardian", page_icon="🛡️", layout="wide")
+    st.set_page_config(page_title="WebGuard AI", page_icon="🛡️", layout="wide")
     local_css("style//style.css")
     ml_app()
 
