@@ -1,0 +1,7 @@
+config_creds.py
+.gitattributes
+.streamlit/
+testing/
+__pycache__/
+*.pyc
+*.pyo
