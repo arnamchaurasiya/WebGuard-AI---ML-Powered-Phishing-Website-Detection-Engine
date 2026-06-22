@@ -42,7 +42,7 @@ df = df_concat_dropped.sample(frac=1)
 
 df = df.drop('URL', axis=1)
 
-X = df.drop(columns=['label', 'has_audio', 'has_text_area', 'has_email_input', 'number_of_images', 'number_of_tr', 'number_of_table'], axis=1)
+X = df.drop(columns=['label', 'has_audio', 'has_text_area', 'has_email_input', 'number_of_images', 'number_of_tr', 'number_of_table'])
 
 Y = df['label']
 
