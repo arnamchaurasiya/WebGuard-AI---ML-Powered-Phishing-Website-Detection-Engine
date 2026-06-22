@@ -1,7 +1,13 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
-from config_creds import reportForm
+
+reportForm = """
+<form action="https://formsubmit.co/your@email.com" method="POST">
+    <input type="text" name="url" placeholder="Paste phishing URL here" required style="width:100%;padding:10px;margin:8px 0;border-radius:5px;border:1px solid #ccc;">
+    <button type="submit" style="background:#e74c3c;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;">Report</button>
+</form>
+"""
 
 # --- PAGE CONFIGURATIONS ---
 st.set_page_config(page_title="Report Link", page_icon="🔗", layout="wide")

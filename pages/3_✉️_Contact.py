@@ -1,7 +1,15 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
-from config_creds import contactForm
+
+contactForm = """
+<form action="https://formsubmit.co/your@email.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required style="width:100%;padding:10px;margin:8px 0;border-radius:5px;border:1px solid #ccc;">
+    <input type="email" name="email" placeholder="Your Email" required style="width:100%;padding:10px;margin:8px 0;border-radius:5px;border:1px solid #ccc;">
+    <textarea name="message" placeholder="Your message here" required style="width:100%;padding:10px;margin:8px 0;border-radius:5px;border:1px solid #ccc;height:120px;"></textarea>
+    <button type="submit" style="background:#2ecc71;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;">Send Message</button>
+</form>
+"""
 
 st.set_page_config(page_title="Contact", page_icon="✉️", layout="wide")
 st.title("Contact Us 📬")
